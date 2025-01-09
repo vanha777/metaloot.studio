@@ -47,7 +47,7 @@ const menuGroups = [
         ),
         label: "Dashboard",
         route: "#",
-        children: [{ label: "eCommerce", route: "/" }],
+        children: [{ label: "Analytics", route: "/" },{ label: "Tokenomics", route: "/tokenomics" },{ label: "Collectibles", route: "/collectibles" }],
       },
       {
         icon: (
@@ -88,7 +88,7 @@ const menuGroups = [
             />
           </svg>
         ),
-        label: "Profile",
+        label: "Registry",
         route: "/profile",
       },
       {
